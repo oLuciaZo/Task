@@ -19,34 +19,63 @@
 <body class="bg-dark">
   <div class="container">
     <div class="card card-register mx-auto mt-5">
-      <div class="card-header">Register Branch Router</div>
+      <div class="card-header"><b>User-Table</b></div>
+      <div class="card-body">
+        <form name=form1 action="add_branch" method="post">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-5">
+                <label for="exampleInputName">Username</label>
+                <label class="form-control" for="exampleInputName">exampleusername</label>
+              </div>
+              <div class="col-md-5">
+                <label for="exampleInputLastName">Password</label>
+                <label class="form-control" for="exampleInputName">examplepassword</label>
+              </div>
+              <div class="col-md-2">
+                <label for="exampleInputLastName">Delete</label>
+                <a class="form-control" href="">Remove</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="card card-register mx-auto mt-5">
+      <div class="card-header"><b>Insert User</b></div>
       <div class="card-body">
         <form name=form1 action="add_branch" method="post">
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-6">
-                <label for="exampleInputName">Username</label>
-                <label class="form-control" for="exampleInputName">exampleusername</label>
+                <label for="exampleInputPassword1">Username</label>
+                <input class="form-control" id="Username" name=Username type="text" placeholder="Username" onclick="ValidateIPaddress(document.form1.WAN2)">
               </div>
               <div class="col-md-6">
-                <label for="exampleInputLastName">Password</label>
-                <label class="form-control" for="exampleInputName">examplepassword</label>
+                <label for="exampleConfirmPassword">Password</label>
+                <input class="form-control" id="Password" name=Password type="password" placeholder="Password" onclick="ValidateIPaddress(document.form1.LAN)">
               </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="form-row">
-              <div class="col-md-3">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                  <label for="exampleConfirmPassword"></label>
+                  <input class="form-control" type="submit" name="submit" value="OK" />
+                </div>
+            <div class="col-md-3">
+                  <label for="exampleConfirmPassword"></label>
+                  <input class="form-control" type="button" onclick="history.back();" value="Cancel">
               </div>
-              <div class="col-md-3">
-                <input class="form-control" type="submit" name="submit" value="OK" />
+            <div class="col-md-3">
               </div>
-          <div class="col-md-3">
-                <input class="form-control" type="button" onclick="history.back();" value="Cancel">
             </div>
-          <div class="col-md-3">
             </div>
-          </div>
           </div>
         </form>
       </div>
