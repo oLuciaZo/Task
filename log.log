@@ -1,0 +1,428 @@
+Heelo0Enter configuration commands, one per line.  End with CNTL/Z.ISAKMP: isadb_key_addr_delete: no key for address 10.96.77.156   crypto isakmp key lAZoqYV7 address 10.96.77.156
+VPN_G1_AIS(config)#10Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key USOBcBrf address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key USOBcBrf address 10.96.77.156
+VPN_G1_AIS(config)#0Enter configuration commands, one per line.  End with CNTL/Z.ISAKMP: isadb_key_addr_delete: no key for address 10.12.144.95   crypto isakmp key USOBcBrf address 10.12.144.95
+VPN_G1_TRUE(config)#telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key YZAkoh6a address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key YZAkoh6a address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key YZAkoh6a address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key YZAkoh6a address 10.12.144.95
+VPN_G1_TRUE(config)#branch1\ntelnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key iofvpi0a address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key iofvpi0a address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key iofvpi0a address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key iofvpi0a address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\ntelnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key Uxr32XNK address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key Uxr32XNK address 10.12.144.95
+VPN_G1_TRUE(config)#telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key eQoZWsQ4 address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key eQoZWsQ4 address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\ntelnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key CB1ErOWl address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key CB1ErOWl address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\ntelnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key eZvf1W8A address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key eZvf1W8A address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\n/ip ipsec peer remove 0/ip ipsec peer remove 1telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key EPlLuJyt address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key EPlLuJyt address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\nip ipsec peer remove 0ip ipsec peer remove 1telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key IS0OQE6N address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key IS0OQE6N address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\n/ip ipsec peer remove 0/ip ipsec peer remove 1telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key J3pHAAbA address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key J3pHAAbA address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\n/ip ipsec peer remove 0/ip ipsec peer remove 1telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.ISAKMP: isadb_key_addr_delete: no key for address 1.1.1.1        crypto isakmp key X67fEndx address 1.1.1.1
+VPN_G1_AIS(config)#telnet2\ntelnet1\n00Enter configuration commands, one per line.  End with CNTL/Z.Enter configuration commands, one per line.  End with CNTL/Z.ISAKMP: isadb_key_addr_delete: no key for address 1.1.1.2        no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key X67fEndx address 1.1.1.2
+VPN_G1_TRUE(config)#crypto isakmp key eYs9sqUq address 10.96.77.156
+VPN_G1_AIS(config)#1.1.1.1branch1\ntelnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key eYs9sqUq address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\n1.1.1.1 Login Failedbranch2\n/ip ipsec peer remove 0/ip ipsec peer remove 11.1.1.2 Login Failed/ip ipsec peer remove 0/ip ipsec peer remove 1telnet1\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#crypto isakmp key A1V8ku9y address 10.96.77.156
+VPN_G1_AIS(config)#telnet2\n0Enter configuration commands, one per line.  End with CNTL/Z.no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#crypto isakmp key A1V8ku9y address 10.12.144.95
+VPN_G1_TRUE(config)#10.96.77.156branch1\n/ip ipsec peer remove 0/ip ipsec peer remove 1telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key 4IHeEw1P address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key 4IHeEw1P address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key UwVDVxJC address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key UwVDVxJC address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="4IHeEw1P" 
+       generate-policy=no policy-template-group=default exchange-mode=main 
+       send-initial-contact=yes nat-traversal=yes proposal-check=obey 
+       hash-algorithm=sha1 enc-algorithm=3des dh-group=modp1024 lifetime=1d 
+       dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="4IHeEw1P" 
+       generate-policy=no policy-template-group=default exchange-mode=main 
+       send-initial-contact=yes nat-traversal=yes proposal-check=obey 
+       hash-algorithm=sha1 enc-algorithm=3des dh-group=modp1024 lifetime=1d 
+       dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=UwVDVxJC enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=UwVDVxJC enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key Q2lMR7Ka address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key Q2lMR7Ka address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="UwVDVxJC" 
+       generate-policy=no policy-template-group=default exchange-mode=main 
+       send-initial-contact=yes nat-traversal=yes proposal-check=obey 
+       hash-algorithm=sha1 enc-algorithm=3des dh-group=modp1024 lifetime=1d 
+       dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="UwVDVxJC" 
+       generate-policy=no policy-template-group=default exchange-mode=main 
+       send-initial-contact=yes nat-traversal=yes proposal-check=obey 
+       hash-algorithm=sha1 enc-algorithm=3des dh-group=modp1024 lifetime=1d 
+       dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=Q2lMR7Ka enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=Q2lMR7Ka enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key JXkivDbj address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key JXkivDbj address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="Q2lMR7Ka" 
+       generate-policy=no policy-template-group=default exchange-mode=main 
+       send-initial-contact=yes nat-traversal=yes proposal-check=obey 
+       hash-algorithm=sha1 enc-algorithm=3des dh-group=modp1024 lifetime=1d 
+       dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="Q2lMR7Ka" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=JXkivDbj generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=JXkivDbj generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key AJf7XiMI address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key AJf7XiMI address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="JXkivDbj" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="JXkivDbj" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=AJf7XiMI generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=AJf7XiMI generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key mfAR9n0E address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key newsite address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key mfAR9n0E address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="AJf7XiMI" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="AJf7XiMI" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=mfAR9n0E generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=mfAR9n0E generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key mfAR9n0E address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key mBYrZ7MD address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key mfAR9n0E address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key mBYrZ7MD address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="mfAR9n0E" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="mfAR9n0E" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=mBYrZ7MD generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=mBYrZ7MD generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key mBYrZ7MD address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key YO1SBKqC address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key mBYrZ7MD address 10.
+VPN_G1_TRUE(config)#crypto isakmp key YO1SBKqC address 10.12.144.95
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="mBYrZ7MD" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="mBYrZ7MD" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=YO1SBKqC generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=YO1SBKqC generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key YO1SBKqC address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key ikKnaiKY address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key YO1SBKqC address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key ikKnaiKY address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="YO1SBKqC" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="YO1SBKqC" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=ikKnaiKY generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=ikKnaiKY generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+telnet1
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key ikKnaiKY address 10.96.77.156
+VPN_G1_AIS(config)#
+crypto isakmp key sCuGJqG1 address 10.96.77.156
+VPN_G1_AIS(config)#
+telnet2
+0
+Enter configuration commands, one per line.  End with CNTL/Z.
+no crypto isakmp key ikKnaiKY address 10.12.144.95
+VPN_G1_TRUE(config)#
+crypto isakmp key sCuGJqG1 address 10.12.144.95
+VPN_G1_TRUE(config)#
+10.96.77.156branch1
+Flags: X - disabled, D - dynamic, R - responder 
+ 0     address=172.29.16.235/32 auth-method=pre-shared-key secret="ikKnaiKY" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+ 1     address=10.96.77.130/32 auth-method=pre-shared-key secret="ikKnaiKY" 
+       generate-policy=port-override policy-template-group=default 
+       exchange-mode=main send-initial-contact=yes nat-traversal=no 
+       proposal-check=obey hash-algorithm=sha1 enc-algorithm=3des 
+       dh-group=modp1024 lifetime=1d dpd-interval=5s dpd-maximum-failures=2 
+
+
+/ip ipsec peer remove 0
+/ip ipsec peer remove 1
+/ip ipsec peer add address=172.29.16.235/32 dh-group=modp1024 secret=sCuGJqG1 generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+/ip ipsec peer add address=10.96.77.130/32 dh-group=modp1024 secret=sCuGJqG1 generate-policy=port-override nat-traversal=no enc-algorithm=3des dpd-interval=5s dpd-maximum-failures=2
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+start check hq connection
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+1.1.1.1 Login Failed Check Connection1
+1.1.1.2 Login Failed Check Connection1
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+start check hq connection
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+1.1.1.1 Login Failed Check Connection
+1.1.1.2 Login Failed Check Connection
+check branch end
+10-05-2018 12:51:571.1.1.1 Login Failed Check Connection
+10-05-2018 12:52:071.1.1.2 Login Failed Check Connection
+10-05-2018 12:52:07check branch end
+10-05-2018 12:52:50  -  1.1.1.1 Login Failed Check Connection
+10-05-2018 12:53:00  -  1.1.1.2 Login Failed Check Connection
+10-05-2018 12:53:00  -  check branch end
+11-05-2018 13:48:02  -  1.1.1.1 Login Failed Check Connection
+11-05-2018 13:48:12  -  1.1.1.2 Login Failed Check Connection
+11-05-2018 13:48:12  -  check branch end
